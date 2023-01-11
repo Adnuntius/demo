@@ -12,8 +12,9 @@
 <script>
 window.adn = window.adn || {}; adn.calls = adn.calls || [];
 adn.calls.push(function() {
-   adn.request({  network: '17714a', adUnits: [
-      { auId: '00000000001a36ed', auW: '600', auH: '400' }
+   adn.useLocalStorage(false);
+   adn.request({ useCookies: false, network: '17714a', adUnits: [
+      { auId: '00000000001a36ed', auW: '600', auH: '400', isolateFrame: true }
    ]});
 });
 </script>
