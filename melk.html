@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Adnuntius Ad Tag Generator and Tester</title>
+</head>
+<body>
+   <script src="https://t.atmng.io/6b2y/KApB709MB.prod.js" async></script>
+   <h3>Adnuntius Ad Tag Generator and Tester</h3>
+<hr>
+<p><small>Ad request: auId = 00000000003c4696</small></p>
+<div id="adn-00000000003c4696" style="display: none"></div>
+<hr>
+<p><small>Ad request: auId = 00000000003c4697</small></p>
+<div id="adn-00000000003c4697" style="display: none"></div>
+
+<script>
+window.adn = window.adn || {}; adn.calls = adn.calls || [];
+adn.calls.push(function() {
+   adn.requestAds({  network: '3c3827', adUnits: [
+      { auId: '00000000003c4696', auW: '980', auH: '300' },
+      { auId: '00000000003c4697', auW: '980', auH: '600' }
+   ]});
+});
+</script>
+</body>
+</html>
